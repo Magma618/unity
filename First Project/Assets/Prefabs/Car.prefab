@@ -93,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1230343756121114103}
   - component: {fileID: 1358907139711454077}
+  - component: {fileID: 2996765479434369296}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -132,11 +133,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed68aee9af5d8b468bf863878060fbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 50
-  acceleration: 50
-  deceleration: 50
+  maxSpeed: 25
+  acceleration: 25
+  deceleration: 25
   turnRate: 180
   onlyTurnWhileMoving: 1
+--- !u!65 &2996765479434369296
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838177551041977325}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.89662516, z: 1.4570286}
+  m_Center: {x: -0, y: 0.1294589, z: -0.008121729}
 --- !u!1 &5608020973017630534
 GameObject:
   m_ObjectHideFlags: 0
