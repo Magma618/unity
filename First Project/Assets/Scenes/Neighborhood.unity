@@ -254,6 +254,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 48775650}
+    - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 48775654}
   m_SourcePrefab: {fileID: 100100000, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
 --- !u!1001 &12799341
 PrefabInstance:
@@ -612,6 +615,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &48775654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48775649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cc5b359d6acc14b8cdcda490a459e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlePrefab: {fileID: 0}
+  validTag: none
+  reappearTime: {x: 2.5, y: 5}
+  debugLog: 0
+  OnCollect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1631269019}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
+        m_MethodName: AddScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &58259781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 768a8e8e078cca345acadb1d68150f5d, type: 3}
@@ -1364,6 +1398,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &126631759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126631751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cc5b359d6acc14b8cdcda490a459e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlePrefab: {fileID: 0}
+  validTag: none
+  reappearTime: {x: 2.5, y: 5}
+  debugLog: 0
+  OnCollect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1631269027}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
+        m_MethodName: AddScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &127329651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3470,6 +3535,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 391797733}
+    - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 391797737}
   m_SourcePrefab: {fileID: 100100000, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
 --- !u!1001 &325823871
 PrefabInstance:
@@ -3986,6 +4054,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3838177551041977325, guid: 12a076b924170614b85a979a8e815ffd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1631269023}
+    - targetCorrespondingSourceObject: {fileID: 3838177551041977325, guid: 12a076b924170614b85a979a8e815ffd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1631269027}
   m_SourcePrefab: {fileID: 100100000, guid: 12a076b924170614b85a979a8e815ffd, type: 3}
 --- !u!1001 &365227087
 PrefabInstance:
@@ -4616,6 +4687,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &391797737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391797732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cc5b359d6acc14b8cdcda490a459e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlePrefab: {fileID: 0}
+  validTag: none
+  reappearTime: {x: 2.5, y: 5}
+  debugLog: 0
+  OnCollect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1631269027}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
+        m_MethodName: AddScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &393977657 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 768a8e8e078cca345acadb1d68150f5d, type: 3}
@@ -5891,6 +5993,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1356924233}
+    - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1356924237}
   m_SourcePrefab: {fileID: 100100000, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
 --- !u!1001 &505972659
 PrefabInstance:
@@ -8925,6 +9030,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &741487197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741487192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cc5b359d6acc14b8cdcda490a459e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlePrefab: {fileID: 0}
+  validTag: none
+  reappearTime: {x: 2.5, y: 5}
+  debugLog: 0
+  OnCollect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1631269027}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
+        m_MethodName: AddScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &746801789 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a464a4595474703418bf02749fc7141b, type: 3}
@@ -13084,6 +13220,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1785049438}
+    - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1785049442}
   m_SourcePrefab: {fileID: 100100000, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
 --- !u!1 &1125255922 stripped
 GameObject:
@@ -15630,6 +15769,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1356924237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356924232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cc5b359d6acc14b8cdcda490a459e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlePrefab: {fileID: 0}
+  validTag: none
+  reappearTime: {x: 2.5, y: 5}
+  debugLog: 0
+  OnCollect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1631269027}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
+        m_MethodName: AddScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1357242569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19265,6 +19435,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &1631269027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631269019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34987d4130ff6da42a38d3c3ac31f3e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  timer: 10
 --- !u!1 &1639042215 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 768a8e8e078cca345acadb1d68150f5d, type: 3}
@@ -21019,6 +21203,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1785049442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785049437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65cc5b359d6acc14b8cdcda490a459e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlePrefab: {fileID: 0}
+  validTag: none
+  reappearTime: {x: 2.5, y: 5}
+  debugLog: 0
+  OnCollect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1631269027}
+        m_TargetAssemblyTypeName: Score, Assembly-CSharp
+        m_MethodName: AddScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1788488148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24070,6 +24285,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 741487193}
+    - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 741487197}
   m_SourcePrefab: {fileID: 100100000, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
 --- !u!1001 &2074747376
 PrefabInstance:
@@ -25500,6 +25718,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 126631755}
+    - targetCorrespondingSourceObject: {fileID: 2511359030704786934, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 126631759}
   m_SourcePrefab: {fileID: 100100000, guid: b553849c93ae6b54bb8291bd695852e0, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
