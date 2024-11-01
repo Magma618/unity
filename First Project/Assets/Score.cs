@@ -14,11 +14,11 @@ public class Score : MonoBehaviour
         if (timer > 0f)
         {
             score++;
-            print("Score: "+ score);
+            print("Score: " + score);
         }
         else
         {
-            print("Out of time!")
+            print("Out of time!");
         }
     }
 
