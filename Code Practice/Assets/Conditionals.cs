@@ -92,8 +92,8 @@ public class Conditionals : MonoBehaviour
         whatToWear(75);
         whatToWear(65);
         whatToWear(30);
-        winner(50, 70);
-        winner 90, 40);
+        //winner(50, 70);
+        //winner(90, 40);
 
         //Write your own function that will tell you what to wear based on the temperature and call it for every possible situation in start
 
